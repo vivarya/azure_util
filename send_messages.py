@@ -6,7 +6,7 @@ from azure.storage.queue import QueueClient
 
 try:
   ##connection_string = os.environ['AzureWebJobsStorage']
-  connection_string = "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=kedastorage1;AccountKey=Dg+ydacn2doHY+JsKLFmlD1tfTYqgfwA3y15RBi9kxhbr/yIZDJHGmAEr38GVjiNQdLLV0P3/KfgIQEwIBlS9w=="
+  connection_string = ""
   ##queue_name = os.environ['QUEUE_NAME']
   queue_name = "js-queue-items"
 except KeyError:
